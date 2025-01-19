@@ -1,0 +1,52 @@
+body{
+    font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    padding: 30px 50px;
+    margin: 100px;
+}
+.content {
+    text-align: left;
+    max-width: 50%;
+}
+.bnr-title {
+    color: #5a6b5d;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bnr-description {
+    font-size: 32px;
+    color: #333333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.bnr-btn{
+    background-color: #006A50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
