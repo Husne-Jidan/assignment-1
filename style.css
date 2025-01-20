@@ -142,6 +142,21 @@ button:hover {
     transition: background-color 0.3s;
     margin-top: 12px;
   }
+  .qoute-content{
+        background: white;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        padding: 30px;
+        margin: 80px;
+  }
+  .background{
+    background-image: url('images/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: left -20px;
+  }
+  .name{
+    margin-top: 12px;
+  }
 
   .news{
     margin: 80px;
