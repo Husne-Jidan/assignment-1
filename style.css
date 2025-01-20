@@ -50,3 +50,95 @@ body{
 button:hover {
     background-color: #218838;
 }
+
+.card{
+    margin: 100px;
+}
+.card-pera{
+    margin-top: 24px;
+}
+.vision{
+    margin-top: 32px;
+    display: flex;
+    gap:24px;
+    justify-content: space-between;
+    
+    }
+
+    /* to ensure all btn align properly*/
+    
+    .vision-1, .vision-2, .vision-3 {
+        display: flex;
+        flex-direction: column;  
+        align-items: flex-start;
+        justify-content: space-between;
+        flex: 1;
+    }
+    .vision-1{
+        background: #b0c8f1;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        padding: 32px;
+      }
+      
+    .vision-2{
+        background: #C6E4D6;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        padding: 32px;
+      }
+      
+    .vision-3{
+        background: #F7EBCF;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        padding: 32px;
+      }
+      .vision-title{
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 12px;
+      }
+      .vision-description{
+        color: #0E0E0E;
+        gap: 12px;
+        
+      }
+    
+
+  .btn-1{
+    background-color: #5490F5;
+    color: white;
+    padding:10px 15px;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 12px;
+  }
+
+  .btn-2{
+    background-color: #2fb97b;
+    color: white;
+    padding:10px 15px;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 12px;
+  }
+  
+  .btn-3{
+    background-color: #FFC239;
+    color: white;
+    padding:10px 15px;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 12px;
+  }
