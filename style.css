@@ -52,7 +52,7 @@ button:hover {
 }
 
 .card{
-    margin: 100px;
+    margin: 80px;
 }
 .card-pera{
     margin-top: 24px;
@@ -141,4 +141,48 @@ button:hover {
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 12px;
+  }
+
+  .news{
+    margin: 80px;
+  }
+  .news-pera{
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .news-card{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex: 1;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        padding: 32px;
+        margin-bottom: 24px;
+  }
+  .news-img{
+    border-radius: 10px;
+    margin-right: 32px;
+  }
+  .news-date{
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  .news-description{
+    line-height: 24px;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  .news-btn{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: 700;
+    font-size: 14px;
+    margin-top: 50px;
   }
