@@ -17,7 +17,7 @@ body{
     background-color: #C6E4D6;
     border-radius: 15px;
     padding: 30px 50px;
-    margin: 100px;
+    margin: 80px;
 }
 .content {
     text-align: left;
@@ -185,4 +185,97 @@ button:hover {
     font-family: 700;
     font-size: 14px;
     margin-top: 50px;
+  }
+  .donate{
+    margin: 80px;
+  }
+ 
+  .donate-title{
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .donate-description{
+    text-align: center;
+  }
+  .donate-btn{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 40px;
+    cursor: pointer;
+    font-family: 700;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+    width: 210px;
+    height: 100px;
+    
+  }
+
+  .other-amount{
+    width: 1000px;
+    height:45px;
+    text-align: center;
+    margin-left: 50px;
+    background-color:#FFFFFF;
+    border: none;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    margin-bottom: 32px;
+  }
+  .done-btn{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 17px 34px;
+    cursor: pointer;
+    font-family: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 500px;    
+  }
+  .subscribe{
+    text-align: center;
+    margin: 80px;
+    background-color: #C6E4D6;
+    padding: 100px 80px;
+    border-radius: 15px;
+  }
+  .sub-title{
+    margin-bottom: 16px;
+  }
+  .sub-pera{
+    line-height: 24px;
+    margin-bottom: 12px;
+    color: #0E0E0E;
+  }
+  .input-btn{
+    display: flex;
+    align-items: center;
+  }
+  .sub-int{
+    width: 600px;
+    height: 40px;
+    margin-left: 95px;
+    padding-left: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+  }
+  .sub-btn{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-family: 700;
+    font-size: 14px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .sub-commitment{
+    margin-top: 24px;
+    color: #0E0E0E;
   }
